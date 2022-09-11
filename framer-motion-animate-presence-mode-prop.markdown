@@ -15,4 +15,6 @@ The AnimatePresence component animates elements when they are removed from the R
 </AnimatePresence>
 ```
 
+The `mode` requires React 18 and is tied into Reacts render cycle. So it works with layout animations. It also explicitly sets position so it works within flex containers, and size so it doesn’t change shape when setting position absolute.
+
  
